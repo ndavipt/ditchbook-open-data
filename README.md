@@ -130,11 +130,11 @@ in [`LICENSE`](./LICENSE).
 ## How to cite
 
 > DitchBook, "Colorado ditch company to WDID matches (tier-1)",
-> getditchbook.com/methods/, data as of 2026-07-27.
+> getditchbook.com/methods/, data as of 2026-07-28.
 
 ## Versioning
 
-This is **v1.0.0**, published 2026-07-27. See
+This is **v1.0.1**, published 2026-07-28. See
 [`CHANGELOG.md`](./CHANGELOG.md) for release history; demotions and
 corrections are recorded there, not silently dropped.
 

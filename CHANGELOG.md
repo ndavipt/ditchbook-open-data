@@ -4,6 +4,26 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.0.1] — 2026-07-28
+
+County metadata completed for two multi-county matches after a
+systematic audit. No match identities changed.
+
+- A 2026-07-28 audit cross-checked every published multi-WDID match's
+  `county` field against DWR's own per-structure county (the ground
+  truth in DWR's structures data) and found two rows, both originally
+  promoted via hand-verified batch 3, where `county` listed only one of
+  the several counties their matched WDIDs actually span:
+  - **Bijou Irrigation Company** (entity_id 19871029704): `county` now
+    `WELD;MORGAN;ARAPAHOE` (was `WELD` only).
+  - **Huerfano-Cucharas Irrigation Company** (entity_id 19871109488):
+    `county` now `PUEBLO;HUERFANO` (was `PUEBLO` only).
+- No `entity_id`, `wdids`, `water_source`, `earliest_year`,
+  `matched_on`, or `citation_url` values changed for either row — this
+  release corrects `county` completeness only.
+- Still **300 tier-1 verified company-to-WDID matches**; the correction
+  changes two cells, not the match count.
+
 ## [1.0.0] — 2026-07-27
 
 Initial public release: **300 tier-1 verified company-to-WDID matches**

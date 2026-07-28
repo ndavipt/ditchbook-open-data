@@ -20,7 +20,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 19871049594,Big Stick Ditch Company,3300554,LA PLATA RIVER,1890,LA PLATA,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1564680
 19871000162,Big Thompson And Platte River Ditch Company,0400502,BIG THOMPSON RIVER,1865,WELD,BIG THOMPSON AND PLATTE RIVER DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1790824
 19871007283,Big Thompson Ditch And Manufacturing Company,0400503,BIG THOMPSON RIVER,1861,LARIMER,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1970086
-19871029704,Bijou Irrigation Company,0100507;0103570;0103653,SOUTH PLATTE RIVER,1871,WELD,batch3-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1988025
+19871029704,Bijou Irrigation Company,0100507;0103570;0103653,SOUTH PLATTE RIVER,1871,WELD;MORGAN;ARAPAHOE,batch3-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1988025
 19871006674,Billings Ditch Company,2000546,RIO GRANDE,1874,RIO GRANDE,BILLINGS DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1961643
 19871471142,Bord Ditch Company,3200512,HARTMAN DRAW,1910,MONTEZUMA,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1563765
 19871055908,Boulder And Weld County Ditch Company,0600515;0600946;0600947,BOULDER CREEK,1861,BOULDER;WELD,batch1-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1871828
@@ -115,7 +115,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 19871050852,Hoehne Ditch Company,1900571,PURGATOIRE RIVER,1863,LAS ANIMAS,HOEHNE DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1532768
 19871105238,Holita Ditch And Reservoir Company,1600579,CUCHARAS RIVER,1910,HUERFANO,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/2041838
 19871018151,Howard Ditch Company,0600580,SOUTH BOULDER CREEK,1860,BOULDER,HOWARD DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1486978
-19871109488,Huerfano-Cucharas Irrigation Company,1400657;1403821;1603712,HUERFANO RIVER,1888,PUEBLO,batch3-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1925599
+19871109488,Huerfano-Cucharas Irrigation Company,1400657;1403821;1603712,HUERFANO RIVER,1888,PUEBLO;HUERFANO,batch3-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1925599
 19871041409,Ide & Starbird Reservoir Company,0504029;0504030,SAINT VRAIN CREEK,1885,WELD,batch1-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1485592
 19871006386,Iliff & Platte Valley Ditch Company,6400520,SOUTH PLATTE RIVER,1883,LOGAN,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1636814
 19871040238,Independent Reservoir Company,0504066,SAINT VRAIN CREEK,1862,BOULDER,batch1-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1485681
