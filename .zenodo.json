@@ -1,0 +1,33 @@
+{
+  "title": "DitchBook — Colorado ditch company to WDID matches (tier-1)",
+  "description": "Verified matches between Colorado mutual ditch and reservoir companies (as registered with the Colorado Secretary of State) and their water structures (WDIDs) in Colorado DWR records — the organization-to-WDID relationship that public state datasets stopped exposing directly. 315 companies are matched at tier-1: published only where state records agree beyond doubt, with a citation URL to the underlying DWR record on every row. Ambiguous candidates are excluded, not guessed.",
+  "creators": [
+    {
+      "name": "Davis, Nick",
+      "affiliation": "DitchBook"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "dataset",
+  "version": "1.1.0",
+  "keywords": [
+    "Colorado",
+    "water rights",
+    "irrigation",
+    "mutual ditch companies",
+    "WDID",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ndavipt/ditchbook-open-data",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://getditchbook.com/data/",
+      "relation": "isDescribedBy",
+      "scheme": "url"
+    }
+  ]
+}
