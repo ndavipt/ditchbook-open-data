@@ -1,5 +1,8 @@
 # DitchBook — Colorado ditch company to WDID matches (tier-1)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21711149.svg)](https://doi.org/10.5281/zenodo.21711149)
+
+
 ## Overview
 
 Verified matches between Colorado mutual ditch and reservoir companies
@@ -130,6 +133,7 @@ in [`LICENSE`](./LICENSE).
 ## How to cite
 
 > DitchBook, "Colorado ditch company to WDID matches (tier-1)",
+> doi:10.5281/zenodo.21711149,
 > getditchbook.com/methods/, data as of 2026-07-28.
 
 ## Versioning
