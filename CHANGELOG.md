@@ -4,6 +4,25 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.2.1] — 2026-08-05
+
+One match withdrawn: an out-of-scope entity that should not have been
+in the census. Now **326 tier-1 verified company-to-WDID matches**.
+
+- **Removed:** Palisade Irrigation District (published with a blank
+  `entity_id`; WDID 7200817, Colorado River, Mesa County). Palisade
+  Irrigation District is a Title 37 statutory irrigation district — a
+  taxing/assessment authority, not a shareholder-owned mutual ditch
+  company — and falls outside the census's own admission rules. It was
+  present in the original seed by oversight and is withdrawn now as
+  part of a project-wide correction.
+- Two further Title 37 districts (Riverside Irrigation District,
+  Orchard Mesa Irrigation District) were removed from the census in the
+  same correction but carried no published match, so this is the only
+  row this release affects.
+- No other match's identity, WDID, water source, earliest year, or
+  county changed as part of this release.
+
 ## [1.2.0] — 2026-08-04
 
 12 companies added via promotion batch 5, following a three-pass
