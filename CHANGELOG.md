@@ -4,6 +4,38 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.2.0] — 2026-08-04
+
+12 companies added via promotion batch 5, following a three-pass
+adversarial review (pass 1 evidence assembly, pass 2 independent
+adversarial re-derivation, pass 3 reconciliation) — the same
+discipline as batch 4. 51 WDIDs added. Now **327 tier-1 verified
+company-to-WDID matches**.
+
+- Added (all `matched_on=batch5-promoted-verified`): Big Ditch
+  Company, Box Springs Canal And Reservoir Company, Catlin Canal
+  Company, Colorado Canal Company, Home Supply Ditch Company Inc.,
+  Lake Arrowhead Water Association, Last Chance Ditch Company, Saddle
+  Mountain Mutual Water Company, The Fort Lyon Canal Company, The
+  United Water Company, The Water Supply And Storage Company, The
+  Welton Land and Water Company.
+- **Subset publication for multi-county systems.** Five of the twelve
+  companies span multiple counties; each WDID for these was verified
+  individually rather than published as a block. Box Springs Canal And
+  Reservoir Company publishes 5 of 7 WDIDs; Catlin Canal Company
+  publishes 1 of 2; Colorado Canal Company publishes 1 of 2; Home
+  Supply Ditch Company Inc. publishes 2 of 5 (the other 3 belong to a
+  distinct, unrelated company of the same name in a different county);
+  Last Chance Ditch Company publishes 1 of 3 (the other 2 belong to
+  two further unrelated companies that share the same structure name).
+  Withheld WDIDs are not published under any other company either —
+  they wait on further evidence.
+- No previously published match changed identity, WDID, water source,
+  earliest year, or county as part of this release.
+- Full adjudication record — including candidates reviewed this batch
+  that were not promoted — is in
+  `water/audits/2026-08-04-match-audits.md` in the DitchBook repo.
+
 ## [1.1.0] — 2026-07-28
 
 15 matches added via promotion batch 4 (three independent review passes
