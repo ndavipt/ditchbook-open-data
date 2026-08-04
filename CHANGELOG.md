@@ -4,6 +4,66 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.3.0] — 2026-08-05
+
+25 companies added via promotion batch 6 (three-pass adversarial review
+plus a fourth upgrades mini-review), drawn from a new evidence class:
+Colorado Dam Safety's owner-of-record field, cross-checked against DWR
+structure records rather than trusted alone, plus primary-document
+upgrade chains (water-court decrees, Secretary of State filing
+histories) that resolved two held-over matches. 67 WDIDs added. Now
+**351 tier-1 verified company-to-WDID matches**.
+
+- Added (all `matched_on=batch6-promoted-verified`): Blue Lake
+  Reservoir Company, Boulder And White Rock Ditch And Reservoir
+  Company, Cedar Mesa Reservoir Company, Denver-View Reservoir And
+  Irrigation Company, Eastdale Mutual Ditch And Reservoir Company,
+  Farmers Reservoir And Irrigation Company, Granby Ditch And Reservoir
+  Company, Grand Mesa Reservoir Company, Kern Reservoir And Ditch
+  Company, Leon Park Reservoir Company, Leroux Creek Water Users'
+  Association, Loveland Lake and Ditch Company, Marcot Park Ditch And
+  Reservoir Company, Needle Creek Reservoir Association, Paradox
+  Valley Canal & Reservoir Co., Sanchez Ditch And Reservoir Company,
+  Seven Lakes Reservoir Company, St. Vrain Reservoir And Fish Company,
+  Surface Creek Ditch And Reservoir Company, Terror Ditch And
+  Reservoir Company, The Tunnel Water Company, Trinchera Irrigation
+  Company, Twin Lakes Reservoir And Canal Company, Weir And Johnson
+  Ditch And Reservoir Company, West Reservoir And Ditch Company.
+- **Subset publication continues.** Grand Mesa Reservoir Company
+  publishes 3 of 4 dam-cited WDIDs; the fourth is withheld pending
+  independent attribution beyond the dam owner field alone — reasons
+  on record in `water/audits/2026-08-05-match-audits.md` in the
+  DitchBook repo.
+- **Two held-over matches resolved on new primary-document evidence:**
+  St. Vrain Reservoir And Fish Company (water-court decrees CA4790 and
+  02CW0334) and Surface Creek Ditch And Reservoir Company (a Secretary
+  of State filing-history resolution to the 1886 entity over a
+  same-name, dormant-since-2016 shell at the same address). Farmers
+  Reservoir And Irrigation Company ("FRICO"), deferred during batch 5's
+  review over an operator-versus-owner question, is promoted on 5 WDIDs — its own filed
+  Articles of Amendment name three of the five structures as its own
+  corporate divisions.
+- **One adjudicated match deliberately not in this release:** The
+  Farmers Water Development Company (WDID 6003507) is evidentially
+  sound but held back for a pipeline-mechanics reason, not an
+  evidentiary one — promoting it collides with the already-published
+  Naturita Canal And Reservoir Company's WDID 6000707 inside the
+  reproducibility pipeline (a chain-order defect requiring a reviewed
+  code change before it can ship safely). It is adjudicated, not
+  suppressed or refuted, and ships in a future release once the fix
+  lands.
+- **Box Springs Canal And Reservoir Company's two Teller County WDIDs,
+  held back since v1.2.0, are now documented as company-specifically
+  refuted**: the 1974 decree awards both structures to Robert Markus,
+  an individual, not the company. They remain unpublished; this is a
+  documentation update to why they're withheld, not a new
+  `suppression-list.csv` entry, since they were never published in
+  the first place.
+- No previously published match changed identity, WDID, water source,
+  earliest year, or county as part of this release.
+- Full adjudication record is in
+  `water/audits/2026-08-05-match-audits.md` in the DitchBook repo.
+
 ## [1.2.1] — 2026-08-05
 
 One match withdrawn: an out-of-scope entity that should not have been

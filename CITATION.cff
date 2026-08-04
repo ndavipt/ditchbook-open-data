@@ -6,7 +6,7 @@ authors:
   - family-names: Davis
     given-names: Nick
     affiliation: DitchBook
-version: 1.2.1
+version: 1.3.0
 date-released: 2026-08-05
 license: CC-BY-4.0
 repository-code: "https://github.com/ndavipt/ditchbook-open-data"
@@ -15,7 +15,7 @@ abstract: >-
   Verified matches between Colorado mutual ditch and reservoir companies
   (as registered with the Colorado Secretary of State) and their water
   structures (WDIDs) in Colorado DWR records — the organization-to-WDID
-  relationship that public state datasets stopped exposing directly. 326
+  relationship that public state datasets stopped exposing directly. 351
   companies are matched at tier-1: published only where state records
   agree beyond doubt, with a citation URL to the underlying DWR record
   on every row. Ambiguous candidates are excluded, not guessed.
