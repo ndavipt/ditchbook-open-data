@@ -4,6 +4,48 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.4.0] — 2026-08-05
+
+Two releases in one version bump: +16 companies / +43 WDIDs total. Now
+**367 tier-1 verified company-to-WDID matches**.
+
+- **Promotion batch 7 (+15 companies / +42 WDIDs)**, drawn from the
+  abbreviation-variant cohort: companies DWR's own records name only via
+  an abbreviation pattern (e.g. `RES. CO.`, `IRR CO`) that exact-string
+  matching missed. Adjudicated across three review passes. Added (all
+  `matched_on=batch7-promoted-verified`): Uncompahgre Valley Water Users
+  Association, The San Luis Valley Canal Company, Manassa Land And
+  Irrigation Company, Fruitland Irrigation Company, Greeley Irrigation
+  Company, Upper Platte and Beaver Canal Company, The Lower Platte and
+  Beaver Canal Company, Sherwood Irrigation Company, Warren Lake
+  Reservoir Company, Schneider Ditch Company, Farmers Pawnee Canal
+  Company, Park Reservoir Company, Grant Reservoir Company, Taylor &
+  Gill Ditch Company, Beaver Creek Ditch Company.
+- **New evidence channel debuts, corroboration-only:** DWR's own
+  structure-level AKA facility/company-code field. Never used as the
+  sole basis for a promotion — only to confirm or contest an
+  attribution reached by other evidence. Its first use caught two wrong
+  publications rather than generating new ones, so two companies in
+  this batch publish a subset: Uncompahgre Valley Water Users
+  Association publishes 20 of 21 dam-cited WDIDs (the Garnet structure
+  is held — its aka code names a Garnet company, and two same-name
+  Garnet companies exist in the census); Manassa Land And Irrigation
+  Company publishes 3 of 4 (one structure's aka code identifies the
+  already-published sibling company, Manassa Ditch Company, instead).
+- **The Farmers Water Development Company (+1 WDID) — the v1.3.0
+  deferral resolved.** WDID `6003507` now publishes. The hold was a
+  pipeline-mechanics issue, not an evidentiary one: promoting it
+  collided with the already-published Naturita Canal And Reservoir
+  Company's WDID `6000707` inside the reproducibility pipeline. That
+  collision is now fixed with a corrections-ledger constraint applied
+  at candidate-generation time; its pin constrains this release's
+  publication to the single verified structure. Naturita Canal And
+  Reservoir Company's published WDID `6000707` is undisturbed.
+- No previously published match changed identity, WDID, water source,
+  earliest year, or county as part of this release.
+- Full adjudication record is in
+  `water/audits/2026-08-05-batch7-final.md` in the DitchBook repo.
+
 ## [1.3.0] — 2026-08-05
 
 25 companies added via promotion batch 6 (three-pass adversarial review
