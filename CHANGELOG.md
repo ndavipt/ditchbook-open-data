@@ -4,6 +4,36 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.5.0] — 2026-08-08
+
+7 companies added via promotion batch 8 (two independently-sourced
+adjudication tracks — fresh discovery via a structure-name-exact
+channel, plus evidence-closure on carryovers from batches 6 and 7 —
+cross-examined by a third, adversarial review pass before promotion).
+All 7 are single-WDID matches; 7 WDIDs added. Now **374 tier-1
+verified company-to-WDID matches**.
+
+- Added (all `matched_on=batch8-promoted-verified`): Beaver Farmers
+  Canal And Ditch Company, Dave Miller Mutual Ditch Company, Dixon
+  Canon Ditch And Reservoir Company, Hermosa Company Ditch,
+  Mitchell-Cooper Ditch And Pipeline Company, High Line Canal Company,
+  Mayham Reservoir Corporation.
+- **Evidence pattern.** Each match rests on a statewide-unique
+  structure name (a company-form name, a personal name, or a namesake
+  drainage) plus independent corroboration: SoS-address-to-structure
+  geographic concordance, an appropriation-to-incorporation date
+  chain, or — for the two evidence-closure carryovers, High Line Canal
+  Company and Mayham Reservoir Corporation — a DWR AKA company-code
+  decode and county-level SoS/contact concordance.
+- **One track-level match declined, not promoted:** Sunny Slope
+  Reservoir Company cleared an initial match but was declined on
+  evidence-custody grounds by the adversarial review — recorded in the
+  adjudication trail, not published.
+- No previously published match changed identity, WDID, water source,
+  earliest year, or county as part of this release.
+- Full adjudication record is in
+  `water/audits/2026-08-08-match-batch8.md` in the DitchBook repo.
+
 ## [1.4.0] — 2026-08-05
 
 Two releases in one version bump: +16 companies / +43 WDIDs total. Now
