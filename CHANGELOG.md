@@ -4,6 +4,39 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.6.0] — 2026-08-09
+
+2 companies added via promotion batch 9 — the scoring pipeline's
+hardened-pipeline debut, closing a leak batch 8's audit flagged:
+`score-batch-2.mjs` now cross-references the combined suppression +
+refutations index before scoring, so an already-adjudicated candidate
+is excluded and reported rather than silently re-entering a fresh
+review lane. On this run, 114 previously-adjudicated (entity_id,
+wdid) pairings across 106 companies were auto-excluded, including 3
+"zombie" hand-curated exclusions carried forward from batch 8 that
+had never been individually adjudicated on their own evidence. Both
+new matches are single-WDID; 2 WDIDs added. Now **376 tier-1 verified
+company-to-WDID matches**.
+
+- Added (both `matched_on=batch9-promoted-verified`): Gunnison and
+  Ohio Creek Canal Company, Richfield Canal Company.
+- **Evidence pattern.** Both rest on a statewide-unique structure name
+  matching the company's own name, plus an in-rule
+  appropriation-to-incorporation date chain: Gunnison and Ohio Creek
+  Canal Company's 18-day gap is the tightest found across any
+  promotion batch to date; Richfield Canal Company's ~16-month gap is
+  corroborated by a statewide Secretary of State search returning
+  exactly one water-associated entity for "Richfield."
+- Of this batch's 28 lane1 adjudications (26 companies / 34 WDIDs
+  individually reviewed): 2 MATCH (both promoted, above), 6 REJECT,
+  19 NEEDS_MORE, 1 NEEDS_MORE_STILL — nothing was stretched to a
+  promotion on a bare structure-name match alone. Zero verifier
+  overturns across all 28.
+- No previously published match changed identity, WDID, water source,
+  earliest year, or county as part of this release.
+- Full adjudication record is in
+  `water/audits/2026-08-09-match-batch9.md` in the DitchBook repo.
+
 ## [1.5.0] — 2026-08-08
 
 7 companies added via promotion batch 8 (two independently-sourced

@@ -9,7 +9,7 @@ Verified matches between Colorado mutual ditch and reservoir companies
 (as registered with the Colorado Secretary of State) and their water
 structures (WDIDs) in Colorado DWR records — the organization-to-WDID
 relationship that public state datasets stopped exposing directly.
-**374 companies** are matched at tier-1: published only where state
+**376 companies** are matched at tier-1: published only where state
 records agree beyond doubt, with a citation URL to the underlying DWR
 record on every row. Ambiguous candidates are excluded, not guessed.
 
@@ -137,11 +137,11 @@ in [`LICENSE`](./LICENSE).
 
 > DitchBook, "Colorado ditch company to WDID matches (tier-1)",
 > doi:10.5281/zenodo.21711149,
-> getditchbook.com/methods/, data as of 2026-08-08.
+> getditchbook.com/methods/, data as of 2026-08-09.
 
 ## Versioning
 
-This is **v1.5.0**, published 2026-08-08. See
+This is **v1.6.0**, published 2026-08-09. See
 [`CHANGELOG.md`](./CHANGELOG.md) for release history; demotions and
 corrections are recorded there, not silently dropped.
 

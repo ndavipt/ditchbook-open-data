@@ -127,6 +127,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 19871005059,Greeley Irrigation Company,0300697;0300934,CACHE LA POUDRE RIVER,1870,WELD,batch7-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/2040492
 19721238635,Green Ditch Company,0600528,BOULDER CREEK,1862,BOULDER,GREEN DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1486695
 19871126362,Grimes-Brooks Reservoir Company,5303966,RED DIRT CREEK,1903,ROUTT,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1945773
+19871035674,Gunnison and Ohio Creek Canal Company,5900569,GUNNISON RIVER,1902,GUNNISON,batch9-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1625413
 19871054775,Hairpin Lateral Ditch Company,4100532;4100746,HAIRPIN CREEK,1905,MONTROSE,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1593935
 19871111983,Hallenbeck No.2 Reservoir Co.,4203619,KANNAH CREEK,1923,MESA,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/2034968
 19871001590,Handy Ditch Company,0400521;0404125;0404146;0404166,BIG THOMPSON RIVER,1861,LARIMER;WELD,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1885113
@@ -259,6 +260,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 19871509111,Reorganized Farmers' Ditch Company,0400519;0404167,BIG THOMPSON RIVER,1861,LARIMER,REORGANIZED FARMERS DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1970165
 19871405238,Reynolds And Cain Ditch Company,3900659,MITCHELL CREEK,1883,GARFIELD,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1660870
 20081372516,Rice Ditch,4100551,UNCOMPAHGRE RIVER,1882,MONTROSE,RICE DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1593684
+19871005452,Richfield Canal Company,2200616,CONEJOS RIVER,1881,CONEJOS,batch9-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1544826
 20091317743,Rifle Creek Canon Ditch Company,3900645,RIFLE CREEK,1882,GARFIELD,RIFLE CREEK CANON DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1582323
 19911011652,Rio Grande And Piedra Valley Ditch Company,2000811,RIO GRANDE,1877,RIO GRANDE,batch1-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1534465
 20071168425,Rising Sun Ditch Company,4500743,COLORADO RIVER,1883,GARFIELD,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1605666
