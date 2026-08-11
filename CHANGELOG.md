@@ -4,6 +4,34 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.7.0] — 2026-08-11
+
+11 companies added via promotion batch 10 after a fixed 20-company
+evidence-closure review. Thirteen company-to-WDID links were added, covering
+12 new distinct WDIDs. Now **387 tier-1 verified company-to-WDID matches / 742
+distinct WDIDs**.
+
+- Added (all `matched_on=batch10-promoted-verified`): The Crystal Spring,
+  Ditch and Pipeline Corp.; Divide Canal and Reservoir Company; Wellman Ditch
+  Company; Andrews-Farwell Ditch and Reservoir Company; Tetsel Mutual Ditch
+  Company; The Carr and Tyler Ditch and Reservoir Company; Rio Grande and San
+  Luis Irrigation Company; Leon Lake Ditch and Reservoir Company; Anaconda
+  Ditch Co., Incorporated; Sellers & McClane Reservoir & Ditch Company; and
+  The J. & M. Hughes Ditch Company.
+- **Second sanctioned joint listing:** WDID `7203839` is shared by Leon Lake
+  Ditch and Reservoir Company and the already-published Grand Mesa Water
+  Users Association because DWR names both as distinct contacts. The Grand
+  Mesa attribution was retained, not overwritten.
+- Two candidates were rejected rather than stretched to publication: La
+  Garita Reservoir Company (5 proposed WDIDs) and Storm Ditch Company (2).
+  Seven further candidates remain open without publication.
+- The complete 12-step pipeline reproduces the 387-row table byte-for-byte,
+  with zero unsanctioned WDID conflicts.
+- Full adjudication record is in
+  `water/audits/2026-08-11-match-batch10.md` in the DitchBook repo.
+- No previously published match changed identity, WDID, water source,
+  earliest year, or county as part of this release.
+
 ## [1.6.0] — 2026-08-09
 
 2 companies added via promotion batch 9 — the scoring pipeline's
