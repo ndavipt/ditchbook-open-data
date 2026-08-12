@@ -4,6 +4,34 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.14.0] — 2026-08-12
+
+Eleven companies added in promotion batch 24, covering 12 newly represented
+structures. Now **483 tier-1 verified company-to-WDID matches / 850 distinct
+WDIDs**.
+
+- Added Animas Valley Ditch and Water Company; Canon Heights Irrigation and
+  Reservoir Company (Canon Heights and Wilson Creek ditches); Centennial
+  Irrigating Ditch Company; East Fork Mutual Irrigation Company; Lake Creek
+  Water Users Mutual Ditch Company; Louden Irrigating Canal & Reservoir
+  Company; Park Ditch and Reservoir Company; Silver Lake Ditch and Reservoir
+  Company; Simon Mutual Ditch and Reservoir Company; Victory Irrigating Canal
+  Company; and Cache A La Poudre Irrigating Ditch Company.
+- Evidence combines original corporate filings with exact DWR contacts,
+  aliases, source streams, legal locations, and water-court structure or
+  operating records. Reid Ditch and Haypark Canal Headgate No. 1 were resolved
+  through exact filed headgate locations plus court or DWR alias evidence.
+- The correct Garfield County Park Ditch and Reservoir Company is now linked
+  to WDID `3800925`; the similarly named Pagosa Springs entity remains in the
+  suppression ledger and is not republished.
+- Boulder and White Rock Lateral and Siphon Company was explicitly rejected
+  for the parent ditch's two headgates because its articles identify a separate
+  lateral and siphon at different legal locations. Four additional companies
+  remain withheld pending title, succession, court, or readable archive
+  evidence.
+- The complete 26-step DitchBook pipeline reproduces the 483-row table
+  byte-for-byte, with no new unsanctioned WDID collision.
+
 ## [1.13.0] — 2026-08-12
 
 Nine companies added in promotion batch 23, covering 17 newly represented
