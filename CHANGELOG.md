@@ -4,6 +4,30 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.11.0] — 2026-08-12
+
+Eight companies added in promotion batch 21, covering five new distinct WDIDs
+and three documented shared-system company/WDID relationships. Now **455
+tier-1 verified company-to-WDID matches / 813 distinct WDIDs**.
+
+- Added Spring Canon Waste Way Ditch Company; New John Flood Ditch Company;
+  Lower Boulder Extension Reservoir Company; Re-Organized Revival Ditch
+  Company; and Jackson Lake Reservoir and Irrigation Company on five newly
+  represented structures.
+- Added Lower Latham Ditch Company, Consolidated Hillsborough Ditch Company,
+  and Extension Irrigation Company without replacing the existing companies
+  on their three shared WDIDs. Current government agreements distinguish
+  title and operating segments while documenting the connected systems.
+- Evidence combines original corporate filings with municipal conveyances,
+  State Engineer records, Colorado Supreme Court and water-court records,
+  current government master plans, and exact DWR legal-location/case
+  fingerprints.
+- Five plausible entities remain withheld pending a deed, transfer, operating,
+  or continuity bridge. Wrong-county and generic-name scorer candidates were
+  recorded as rejected rather than guessed.
+- The complete 23-step DitchBook pipeline reproduces the 455-row table
+  byte-for-byte, with no new unsanctioned WDID collision.
+
 ## [1.10.0] — 2026-08-12
 
 Six companies added in promotion batch 20, covering eight new distinct WDIDs.
