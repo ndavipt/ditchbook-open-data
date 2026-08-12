@@ -118,6 +118,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 20111251063,Forked Tongue/Holman Ditch Company,4000706,TONGUE CREEK,1886,DELTA,batch1-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1660616
 19871110642,Forrest Ditch Company,4000691;4000758,SURFACE CREEK,1881,DELTA,FORREST DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1585611
 20091085502,Fort Bent Ditch Company,6700610,ARKANSAS RIVER,1886,BENT,FORT BENT DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1975500
+19871505749,Fort Morgan Reservoir and Irrigation Company,0100513;0100514,SOUTH PLATTE RIVER,1882,WELD;MORGAN,batch20-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/2056153
 19871071649,Fountain Mutual Irrigation Company,1000736,FOUNTAIN CREEK,1861,EL PASO,batch12-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/2047365
 20181880172,Four Mile Ditch Association,2900601,FOURMILE CREEK,1890,ARCHULETA,batch4-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1558175
 19871006449,Fremont County Irrigating Ditch Company,1200510,ARKANSAS RIVER,1862,FREMONT,batch1-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1994894
@@ -291,6 +292,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 19871124780,Piedra Falls Ditch Company,7800659,PAGOSA CREEK,1939,HINSDALE,PIEDRA FALLS DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1650226
 20191354452,Pilot Rock Ditch Company,4000586,LITTLE COAL CREEK,1883,DELTA,batch13-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1859324
 19871085945,Pinon Ditch Company,1100553;1100847,SOUTH ARKANSAS RIVER,1867,CHAFFEE,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1518596
+19871077722,Pisgah Reservoir and Ditch Company,1203505,FOURMILE CREEK,1907,TELLER,batch20-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1926324
 19871005954,Platte Valley Irrigation Company,0203890,LITTLE DRY CREEK,1910,WELD,PLATTE VALLEY IRRIGATION,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1469630
 ,Redlands Mesa Water Users,4000942,LEROUX CREEK,1882,DELTA,REDLANDS MESA WATER USERS,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1586198
 ,Redlands Water and Power Company,4200541;7200796;7201376,GUNNISON RIVER,1905,MESA,REDLANDS WATER AND POWER,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1595175
@@ -372,7 +374,9 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 20248180363,Tetsel Mutual Ditch Company,0100525,SOUTH PLATTE RIVER,1874,MORGAN,batch10-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1458268
 20238353217,The Abraham Davis Ditch Company,7800501,EAST FORK PIEDRA RIVER,1900,MINERAL,batch13-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1650021
 20208051336,The Carr and Tyler Ditch and Reservoir Company,0600520,BOULDER CREEK,1861,WELD,batch10-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1486674
+19871000841,The Colorado Agricultural Ditch Company,0700549,CLEAR CREEK,1861,ADAMS,batch20-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1883786
 19671195797,"The Crystal Spring, Ditch and Pipeline Corp.",3801261,CRYSTAL RIVER,1916,GUNNISON,batch10-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1576155
+19871019508,The De Weese-Dye Ditch and Reservoir Company,1200672;1303613,GRAPE CREEK,1866,FREMONT;CUSTER,batch20-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1924776
 19871958653,The Farmers Water Development Company,6003507,MAVERICK DRAW,1888,SAN MIGUEL,batch6-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1631028
 19871024942,The Fort Lyon Canal Company,1700553;1700648;1700673;1700674;1703545;1703546;6703882,ARKANSAS RIVER,1884,OTERO;CROWLEY;KIOWA;BENT;PROWERS,batch5-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1760029
 20161031557,The Fry-Haskins Ditch maintance,0300902,CACHE LA POUDRE RIVER,1881,LARIMER,batch12-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1476712
@@ -382,6 +386,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 19871036320,The Meadow Island Ditch Company No. Two (2),0200822,SOUTH PLATTE RIVER,1866,WELD,batch19-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1885426
 19871062490,The Mutual Hyde Ditch Company,6700555;6700612;6700648,MARKHAM ARROYO,1887,PROWERS,batch19-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1783146
 19871073315,The Oligarchy Irrigation Company,0500547,SAINT VRAIN CREEK,1861,BOULDER,batch15-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1793953
+19871040666,The Owl Creek Supply and Irrigation Company,0100902,OWL CREEK,1906,WELD,batch20-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1458659
 19871045723,The Pine River Canal Company,3101045,LOS PINOS RIVER,1868,LA PLATA,batch4-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1859803
 19871002041,The Pleasant Valley and Lake Canal Company,0300910,CACHE LA POUDRE RIVER,1861,LARIMER,batch4-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1839511
 19871076957,The San Luis Valley Canal Company,2000828;2000829;2001009;2001056,RIO GRANDE,1885,RIO GRANDE,batch7-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1807884
@@ -401,6 +406,7 @@ entity_id,company_name,wdids,water_source,earliest_year,county,matched_on,citati
 19871015734,Tropic Ditch Company,4001789,NORTH FORK GUNNISON RIVER,1901,DELTA,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1587416
 19871024801,Twin Lakes Reservoir And Canal Company,3803779,LINCOLN CREEK,1974,PITKIN,batch6-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1577614
 19871036810,Uncompahgre Valley Water Users Association,4001434;4100520;4100534;4100537;4100545;4100558;4100559;4100564;4100571;4100585;4100599;4100601;4100604;4100610;4100628;4100631;4100635;4100655;4100983;6200561,UNCOMPAHGRE RIVER,1881,MONTROSE,batch7-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1593637
+19871035494,Union Reservoir Company,0503905,SAINT VRAIN CREEK,1862,WELD,batch20-primary-doc-court-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/2006453
 19871036206,Upper Baldwin Ditch Company,0500583;0505378,DRY CREEK,1872,BOULDER,UPPER BALDWIN DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1484627
 19871045460,Upper Harmony Ditch Company,6400823;6400824;6400825;6400826;6400827;6400828;6400829;6400830,SPRING CANYON,1897,LOGAN,UPPER HARMONY DITCH,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1701862
 20011044787,"Upper Hight Ditch Company, Inc.",7201233,BUZZARD CREEK,1956,MESA,batch2-promoted-verified,https://dwr.state.co.us/Tools/WaterRights/NetAmounts/1647286

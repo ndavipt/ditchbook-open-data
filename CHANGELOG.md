@@ -4,6 +4,29 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.10.0] — 2026-08-12
+
+Six companies added in promotion batch 20, covering eight new distinct WDIDs.
+Now **447 tier-1 verified company-to-WDID matches / 808 distinct WDIDs**.
+
+- Added Fort Morgan Reservoir and Irrigation Company (Jackson Lake Inlet
+  Ditch and Fort Morgan Canal); The De Weese-Dye Ditch and Reservoir Company
+  (DeWeese Dye Ditch and Reservoir); Pisgah Reservoir and Ditch Company; Union
+  Reservoir Company; The Colorado Agricultural Ditch Company; and The Owl
+  Creek Supply and Irrigation Company.
+- Evidence combines original corporate filings with exact DWR contacts and
+  legal locations, then uses Colorado water-court records for independent
+  corroboration where available.
+- Four additional researched companies remain withheld: Consolidated
+  Hillsborough and Lower Latham need ownership/operator reconciliation; Cedar
+  Springs still needs a deed, court record, or dam-safety bridge; Louden
+  Extension lacks an independent verified structure.
+- Jackson Lake Reservoir remains withheld from Fort Morgan because a separate
+  Jackson Lake company contends; only Fort Morgan's two exact-contact DWR rows
+  were published.
+- The complete 22-step DitchBook pipeline reproduces the 447-row table
+  byte-for-byte, with no new unsanctioned WDID collision.
+
 ## [1.9.0] — 2026-08-12
 
 Six companies added in promotion batch 19, covering eight new distinct WDIDs.
