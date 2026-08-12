@@ -4,6 +4,30 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.13.0] — 2026-08-12
+
+Nine companies added in promotion batch 23, covering 17 newly represented
+structures. Now **472 tier-1 verified company-to-WDID matches / 838 distinct
+WDIDs**.
+
+- Added Consolidated Mutual Water Company (Welton, Fairmount, and Maple Grove
+  reservoirs); Prairie Ditch Company (ditch and drain); Buffalo Mutual
+  Irrigation Company (six Buffalo Canal system points); Dry Creek No. 2 Ditch
+  Company; Erie Coal Creek Ditch & Reservoir Company; Big Dry Creek Ditch &
+  Reservoir Company; Last Chance Ditch Company #2; Meadow Island Irrigation
+  Company; and Kirtz Ditch Company.
+- Evidence combines original corporate filings with exact DWR contacts,
+  whole-system language, current government records, legal locations, and the
+  operating company's own asset history.
+- Kirtz was corrected from the initial No. 2 candidate to WDID `5000592`,
+  Kurtz/Kirtz Ditch No. 1, using the filing's exact Troublesome Creek legal
+  location.
+- Five plausible companies and four additional Consolidated Mutual contact
+  points remain withheld pending an asset-specific title, transfer, continuity,
+  or operating bridge.
+- The complete 25-step DitchBook pipeline reproduces the 472-row table
+  byte-for-byte, with no new unsanctioned WDID collision.
+
 ## [1.12.0] — 2026-08-12
 
 Eight companies added in promotion batch 22, each on a newly represented
