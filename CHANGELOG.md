@@ -4,6 +4,27 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.9.0] — 2026-08-12
+
+Six companies added in promotion batch 19, covering eight new distinct WDIDs.
+Now **441 tier-1 verified company-to-WDID matches / 800 distinct WDIDs**.
+
+- Added Alamo Ditch Company; Allen Mesa Ditch and Reservoir Company; Baca
+  Irrigating Ditch Company; Midland Ditch Company; The Meadow Island Ditch
+  Company No. Two (2); and The Mutual Hyde Ditch Company.
+- Mutual Hyde contributes a verified three-point operated system: Ideal Ditch,
+  Hyde Ditch, and Hyde's adjudicated alternate point of diversion.
+- Evidence combines original formation/acquisition records with DWR contacts,
+  legal locations and right schedules, plus Colorado water-court or State
+  Engineer corroboration where available. Map labels were used only to verify
+  geography, never to create ownership.
+- Four additional researched companies were withheld: two carrier-canal
+  laterals with no independent WDID, one government-project transfer missing
+  its structure schedule, and one acquired Rio Grande system whose legal point
+  could not yet be recovered.
+- The complete 21-step DitchBook pipeline reproduces the 441-row table
+  byte-for-byte, with no new unsanctioned WDID collision.
+
 ## [1.8.0] — 2026-08-12
 
 48 companies added across promotion batches 11–18, covering 50 new distinct
