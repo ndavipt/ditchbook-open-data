@@ -4,6 +4,27 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.12.0] — 2026-08-12
+
+Eight companies added in promotion batch 22, each on a newly represented
+structure. Now **463 tier-1 verified company-to-WDID matches / 821 distinct
+WDIDs**.
+
+- Added Cedar Springs Reservoir LLC; North Fork Ditch Company; Newton Gulch
+  Reservoir Co.,Inc.; The Wildcat Reservoir Company, LLC; Meadowview Mutual
+  Reservoir Company; South Side Reservoir Company; Ish Reservoir Company; and
+  The Cache La Poudre Reservoir Company.
+- Evidence combines original corporate filings with exact legal locations,
+  DWR aliases and contacts, current operator statements, and government title
+  and reservoir-management records.
+- Two tempting cross-county name matches were explicitly rejected: the Adams
+  County Long Branch Lateral is not Saguache County Long Branch Ditch, and the
+  Garfield County East Crann system is not Eagle County Crann Ditch.
+- Four plausible companies remain withheld pending transfer, operating, or
+  entity-continuity evidence.
+- The complete 24-step DitchBook pipeline reproduces the 463-row table
+  byte-for-byte, with no new unsanctioned WDID collision.
+
 ## [1.11.0] — 2026-08-12
 
 Eight companies added in promotion batch 21, covering five new distinct WDIDs
