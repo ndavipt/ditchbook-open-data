@@ -4,6 +4,22 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.8.0] — 2026-08-12
+
+48 companies added across promotion batches 11–18, covering 50 new distinct
+WDIDs. Now **435 tier-1 verified company-to-WDID matches / 792 distinct
+WDIDs**.
+
+- Expanded evidence channels include direct DWR contacts, original formation
+  filings, recorded-title and operator records, court priorities, exact legal
+  descriptions, and map topology used only as geographic corroboration.
+- Batch 18 adds New Brantner Extension Ditch Company; Mogote Northeastern
+  Consolidated Ditch Company (two WDIDs); Sanborn Reservoir and Ditch Company;
+  Talmadge And Gibson Ditch And Reservoir Company; White Ditch No. 2,
+  Incorporated; White Ditch No. 3, Incorporated; and Trickle Ditch Company.
+- The complete 20-step DitchBook pipeline reproduces the 435-row table
+  byte-for-byte, with no new unsanctioned WDID collision.
+
 ## [1.7.0] — 2026-08-11
 
 11 companies added via promotion batch 10 after a fixed 20-company
