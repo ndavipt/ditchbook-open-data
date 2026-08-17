@@ -4,6 +4,23 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.16.0] — 2026-08-17
+
+Five long-running HOLD cases closed in promotion batch 69 after DitchBook's
+CDSS Imaged Documents importer inventoried 4,092 official attachments and
+reviewed 90 bounded pages. Now **643 tier-1 verified company-to-WDID matches /
+1,037 distinct WDIDs**.
+
+- Thompson Rivers Storage And Irrigation Company, LLC is associated with Bacon
+  Reservoir (`0403307`), and Porter Ditch And Reservoir Company with Porter
+  Ditch (`4500725`).
+- Excelsior Irrigating Company, Farmers Irrigating Ditch & Reservoir Company,
+  and No. 10 Ditch Company are published only as explicitly scoped historical,
+  predecessor, or contract-right associations beside the retained current or
+  predecessor company. These rows do not assert present ownership.
+- The complete 68-stage DitchBook pipeline reproduces the 643-row table
+  byte-for-byte, with all shared-WDID boundaries recorded explicitly.
+
 ## [1.15.0] — 2026-08-17
 
 The primary-record, court-record, map, title, operator, and targeted closure
@@ -21,7 +38,7 @@ WDIDs**.
   Irrigating Ditch Company remains the current listing; the historical
   association does not assert present ownership or operation.
 - The complete 66-stage DitchBook pipeline reproduces the 638-row publication
-  table byte-for-byte. A new parity test also requires the website's open-data
+  table byte-for-byte. A parity test also requires the website's open-data
   mirror to remain identical to this canonical publication table.
 
 ## [1.14.0] — 2026-08-12
