@@ -4,6 +4,26 @@ All notable changes to this dataset are recorded here, including
 demotions — a match that no longer appears is documented, not silently
 dropped.
 
+## [1.15.0] — 2026-08-17
+
+The primary-record, court-record, map, title, operator, and targeted closure
+batches since v1.14.0 add **155 companies and 185 distinct WDIDs**. The dataset
+now contains **638 tier-1 verified company-to-WDID matches / 1,035 distinct
+WDIDs**.
+
+- Added the verified results of promotion batches 25–68, including exact
+  original filings, water-court records, government ownership and operating
+  records, mapped structure evidence, and narrowly authorized shared-system
+  and historical associations.
+- Added the first deterministic CDSS Imaged Documents evidence pass. A
+  DWR-attached 1930 CA1248 hearing establishes the 1911 Los Pinos Ditch
+  Company as the historic claimant for WDID `3100512`. The 1959 Los Pinos
+  Irrigating Ditch Company remains the current listing; the historical
+  association does not assert present ownership or operation.
+- The complete 66-stage DitchBook pipeline reproduces the 638-row publication
+  table byte-for-byte. A new parity test also requires the website's open-data
+  mirror to remain identical to this canonical publication table.
+
 ## [1.14.0] — 2026-08-12
 
 Eleven companies added in promotion batch 24, covering 12 newly represented
